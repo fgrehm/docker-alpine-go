@@ -1,4 +1,4 @@
-IMAGE = fgrehm/alpine-go:1.5.1
+IMAGE = fgrehm/alpine-go:1.5.3
 
 default:
 	docker build -t $(IMAGE) .
